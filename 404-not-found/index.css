@@ -21,10 +21,45 @@ main {
 img {
   height: 20rem;
   width: 50%;
+  max-width: 500px;
 }
 
 .details {
   width: calc(50% - 4rem);
   margin-left: auto;
   padding: 2rem;
+}
+
+.button {
+  display: grid;
+  place-items: center;
+
+  width: inherit;
+  margin-top: 4rem;
+  padding: 1rem;
+
+  color: #eef1ef;
+  text-transform: capitalize;
+
+  background-color: #4b5569;
+
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  margin: 1rem;
+
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
 }
