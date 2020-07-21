@@ -61,3 +61,24 @@ footer {
 
   text-align: center;
 }
+
+@media screen and (max-width: 815px) {
+  body {
+    width: calc(100vw - 20%);
+    padding: 0 10%;
+  }
+
+  .links-container {
+    min-width: 0;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: whitesmoke;
+
+    box-shadow: 0 0 1.5rem #dddddd;
+  }
+
+  footer {
+    width: calc(100vw - 20% - 2rem);
+    margin: 1rem;
+  }
+}
